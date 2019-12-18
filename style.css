@@ -1,10 +1,12 @@
+body{
+    background-image:url(img/background-porsche.png);
+    background-repeat: no-repeat;
+    background-size: 100vw  65vh;
+}
 .nav ul{
     display:flex;
     align-items: center;
     height:81px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: fixed;
 }
 .nav__left{
     width:8vw;
@@ -19,18 +21,37 @@
     width:92vw;
 }
 li a{
-    color:black;
+    color:white;
     text-decoration: none;
+    font-size: 18px;
 }
 .nav__logo{
     width:60px;
 }
+.article__header{
+    margin-top:33vh;
+    text-align:center;
+}
+.article__title{
+    font-size: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 115px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:5vh;
+}
+.article__subtitle{
+    font-size: 24px;
+}
 .content{
     margin-top:10vh;
+    margin-left:5vw;
+    margin-right:5vw;
 }
 table {
     border: medium solid #000000;
-    width: 50%;
     text-align: center;
     }
     td{
@@ -41,5 +62,35 @@ table {
     width:40vw;
 }
 .article-home{
-    padding-top:30vh;
+    padding-top:28vh;
+}
+.img__article{
+    width: 600px;
+    height: 350px;
+    margin-right:5vw;
+}
+.content__one {
+    display: flex;
+    margin-bottom:15vh;
+}
+.one__description{
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction: column;
+    padding:2vw;
+    overflow:scroll;
+    height: 280px;
+}
+.one__description p{
+    padding-bottom:2vh;
+}
+.description__title{
+    font-weight:bold;
+    font-size:18px;
+    padding: 1vh 0vh 5vh 0vh;
+}
+.blog-information{
+    text-align:center;
+    margin-bottom:2vh;
 }
