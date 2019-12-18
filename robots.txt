@@ -1,0 +1,4 @@
+User-agent: googlebot
+Disallow: /répertoire1/
+Allow: /blog/
+Allow: /shop/
