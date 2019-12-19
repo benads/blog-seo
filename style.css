@@ -172,39 +172,5 @@ margin-top: 5vh;
 .nav__left {
     width: 30vw;
 }
-.burger-button {
-  font-family: sans-serif;
-width: 50px;
-  font-size: 21px;
-  line-height: 1.6;
-  margin: 0;
-  display: flex;
-  color: #f00;
-  transition: transform .4s cubic-bezier(.25, .1, .25, 1);
-}
 
-.burger-button:not(:target) {
-  transform: translate3d(-335px, 0, 0);
-}
-
-.burger-button:target {
-  transform: translate3d(0, 0, 0);
-}
-
-#open,
-#close {
-  height: 44px;
-  text-align: right;
-  display: block;
-  margin-right: -30px;
-}
-
-.burger-button:target #open,
-.burger-button:not(:target) #close {
-  display: none;
-}
-
-.burger-button:target #open {
-  display: none;
-}
 }
