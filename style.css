@@ -42,7 +42,8 @@ li a{
     font-size: 18px;
 }
 .nav__logo{
-    width:60px;
+    width: 100px;
+    margin-left: 1vw;
 }
 .article__home{
     margin-top:33vh;
