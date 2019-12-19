@@ -131,6 +131,8 @@ table {
 background-color: dimgrey;
     text-align: center;
     color: white;
+padding: 10px;
+    font-weight: 400;
 }
 .article-preview-img{
     width: 100%;
