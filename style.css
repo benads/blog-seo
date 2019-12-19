@@ -127,6 +127,11 @@ table {
 .article-preview{
     max-width: 41vw;
 }
+.article-preview-title{
+background-color: dimgrey;
+    text-align: center;
+    color: white;
+}
 .article-preview-img{
     width: 100%;
     height: 270px;
