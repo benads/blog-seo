@@ -38,9 +38,8 @@ li a{
     margin-left: 5vw
     text-align:center;
 }
-.article-home header{
+.article__header{
     margin-top:33vh;
-    margin-left: 5vw
     text-align:center;
 }
 .article__title{
