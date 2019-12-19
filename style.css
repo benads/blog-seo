@@ -206,16 +206,16 @@ input + label {
       }
     }
     input ~ .nav__right {
-      background: white;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      z-index: 3;
-      transition: .5s;
-      transition-delay: .5s;
-      overflow: hidden;
+          background: white;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: 3;
+    transition: .5s;
+    transition-delay: .5s;
+    overflow: hidden;
       > ul {
         text-align: center;
         position: absolute;
