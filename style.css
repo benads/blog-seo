@@ -33,6 +33,11 @@ li a{
 .nav__logo{
     width:60px;
 }
+.article__header{
+    margin-top:33vh;
+    margin-left: 5vw
+    text-align:center;
+}
 .article-home header{
     margin-top:33vh;
     margin-left: 5vw
