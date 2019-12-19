@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 h1{
-    margin-left: 5vw;
+    margin-left: 5vw !important;
 }
 .nav ul{
     display:flex;
