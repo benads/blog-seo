@@ -158,17 +158,8 @@ padding: 10px;
 margin-top: 5vh;
     margin-bottom: 5vh;
 }
-.nav__right{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 110px;
-    text-align: center;
-    background-color: white;
-    z-index: 1;
-    width: 100%;
-    line-height: 50px;
-}
+
+
 .nav__left {
     width: 30vw;
 }
