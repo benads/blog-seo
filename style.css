@@ -153,4 +153,7 @@ table {
 .nav__right{
 display: none;
 }
+.nav__left {
+    width: 30vw;
+}
 }
