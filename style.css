@@ -208,6 +208,8 @@ input + label {
     input ~ .nav__right {
           background: white;
     position: fixed;
+	    display: flex;
+    flex-direction: column;
     top: 90px;
     left: 0;
     width: 100%;
