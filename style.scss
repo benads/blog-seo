@@ -6,7 +6,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
-
+#burger{
+	display: none;
+}
 #header{
     border-bottom: 1px solid black;
     background-color: white;
