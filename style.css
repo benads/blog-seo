@@ -6,6 +6,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+h1{
+    margin-left: 5vw;
+}
 .nav ul{
     display:flex;
     align-items: center;
