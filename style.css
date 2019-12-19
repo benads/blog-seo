@@ -6,6 +6,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+
+#header{
+    border-bottom: 1px solid black;
+
 h1{
     margin-left: 5vw !important;
 }
