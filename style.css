@@ -94,6 +94,7 @@ table {
     padding:2vw;
     overflow:scroll;
     height: 280px;
+    line-height: 25px;
 }
 .one__description p{
     padding-bottom:2vh;
