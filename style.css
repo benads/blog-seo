@@ -112,6 +112,7 @@ table {
     display: flex;
     justify-content: space-around;
     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .article-preview{
     max-width: 41vw;
