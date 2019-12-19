@@ -107,3 +107,12 @@ table {
     text-align:center;
     margin-bottom:2vh;
 }
+.articles-wrapper{
+    display: flex;
+}
+.article-preview{
+    max-width: 40vw;
+}
+.article-preview-img{
+    width: 100%;
+}
